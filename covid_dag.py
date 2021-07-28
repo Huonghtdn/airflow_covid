@@ -15,14 +15,15 @@ dag = DAG('covid',
           catchup=False
           )
 #step-2
-command_t1 = 'python PathToYourFile/covid_func.py '
+gitPath="https://github.com/Huonghtdn/airflow_covid/blob/main"
+command_t1 = 'python '+gitPath+'/covid_func.py '
 t1 = BashOperator(
           task_id = 'covidPlots',
           bash_command = command_t1,
           dag = dag
 )
 
-command_t2 = 'python PathToYourFile/git_push.py '
+command_t2 = 'python '+gitPath+'/git_push.py '
 t2 = BashOperator(
                   task_id = 'gitPush',
                   bash_command = command_t2,
