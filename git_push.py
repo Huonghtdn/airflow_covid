@@ -3,7 +3,7 @@ import os
 
 os.chdir(YourGithubPageDirectoryPath)
 
-PATH_OF_GIT_REPO = YourGithubPageDirectoryPath/.git'
+PATH_OF_GIT_REPO = "https://github.com/Huonghtdn/airflow_covid/blob/main"+'/.git'
 COMMIT_MESSAGE = 'Daily update'
 
 def git_push():
