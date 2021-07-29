@@ -1,7 +1,7 @@
 from git import Repo
 import os
 
-os.chdir(YourGithubPageDirectoryPath)
+os.chdir('https://github.com/Huonghtdn/airflow_covid/blob/main')
 
 PATH_OF_GIT_REPO = "https://github.com/Huonghtdn/airflow_covid/blob/main"+'/.git'
 COMMIT_MESSAGE = 'Daily update'
