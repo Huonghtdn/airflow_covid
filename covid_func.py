@@ -22,7 +22,7 @@ def CovidPlots():
     }
     sns.set_style(custom_style)
 
-    os.chdir('https://github.com/Huonghtdn/airflow_covid/edit/main')
+    os.chdir('C:/Users/Admin/Desktop/airflow_covid')
 
     # =========================================================================================  import
 
